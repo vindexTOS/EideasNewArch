@@ -17,7 +17,7 @@ import { useAuth } from "@/hooks/useAuthUser";
 import { GetAllUserInfo, GetSingleUserInfo } from "@/API/users/userGetRequest";
 import { useMutation, useQuery } from "@tanstack/react-query";
 
-import { RNCamera } from "react-native-camera";
+// import { RNCamera } from "react-native-camera";
 import QRCodeScanner from "@/components/modals/QRCodeScanner";
 import { cardType } from "@/types/Card.Type";
 import { CreatCard } from "@/API/cards/createCard";
