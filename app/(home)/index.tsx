@@ -351,10 +351,10 @@ export default function Home() {
                       setOpenQRScannerModal(true);
                     }}
                   />
-                  <Button
+                  {/* <Button
                     title="RFD reader"
                     onPress={() => setOpenCardAddModal(false)}
-                  />
+                  /> */}
                   <Button
                     title="დახურვა"
                     onPress={() => setOpenCardAddModal(false)}
