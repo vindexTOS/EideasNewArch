@@ -32,8 +32,8 @@ export default function Login() {
     mutationFn: (body: loginType) => {
       return LoginPostRequest(body);
     },
-    onError: () => {
-      Alert.alert("Error login", "Something went wrong", [{ text: "OK" }]);
+    onError: (err) => {
+      Alert.alert("Error login", "Something went wrong " + JSON.stringify(err), [{ text: "OK" }]);
     },
     onSuccess: () => {
       router.push("/(home)");
